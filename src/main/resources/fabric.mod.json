@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "moresnifferflowers",
+  "version": "${version}",
+  "name": "Moresnifferflowers",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/moresnifferflowers/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "net.abraxator.moresnifferflowers.moresnifferflowers.client.MoresnifferflowersClient"
+    ],
+    "main": [
+      "net.abraxator.moresnifferflowers.moresnifferflowers.Moresnifferflowers"
+    ]
+  },
+  "mixins": [
+    "moresnifferflowers.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.22",
+    "fabric": "*",
+    "minecraft": "1.20.1"
+  }
+}
