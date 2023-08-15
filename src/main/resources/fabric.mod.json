@@ -11,10 +11,10 @@
   "environment": "*",
   "entrypoints": {
     "client": [
-      "net.abraxator.moresnifferflowers.moresnifferflowers.client.MoresnifferflowersClient"
+      "net.abraxator.moresnifferflowers.client.MoresnifferflowersClient"
     ],
     "main": [
-      "net.abraxator.moresnifferflowers.moresnifferflowers.Moresnifferflowers"
+      "net.abraxator.moresnifferflowers.Moresnifferflowers"
     ]
   },
   "mixins": [
